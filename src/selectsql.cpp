@@ -1,5 +1,7 @@
 #include "selectsql.h"
 #include "ui_selectsql.h"
+#include <QIcon>
+#include <QPixmap>
 
 SelectSql::SelectSql(MainWindow *w, Login *l, QWidget *parent) :
     QWidget(parent),
@@ -12,6 +14,9 @@ SelectSql::SelectSql(MainWindow *w, Login *l, QWidget *parent) :
 
     mainwindow = w;
     login = l;
+
+    QPixmap pixmap(":/it.png");
+    setWindowIcon( QIcon(pixmap) );
 }
 
 SelectSql::~SelectSql()

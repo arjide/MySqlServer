@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>i18n/qt_zh_CN.qm</file>
+        <file>it.png</file>
     </qresource>
 </RCC>

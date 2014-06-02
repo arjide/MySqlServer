@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui sql phonon webkit
+QT       += core gui sql
 
 TARGET = MySqlServer
 TEMPLATE = app

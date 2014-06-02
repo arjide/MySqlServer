@@ -1,8 +1,8 @@
 #include <QtGui/QApplication>
 #include <QDebug>
-#include <QtWebKit>
 #include <QLibraryInfo>
 #include <QTranslator>
+#include <QPixmap>
 #include "src/mainwindow.h"
 #include "src/selectsql.h"
 #include "src/login.h"
